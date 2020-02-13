@@ -12,11 +12,11 @@ var lyric = "maybe";
 function crazy() {
   // fix the code in here:
 
-  thisIsCrazy();
 
   thisIsCrazy = function (){
     console.log("hey!!!")
   }
+  thisIsCrazy()
 }
 
 function sayMyName() {
@@ -25,8 +25,9 @@ function sayMyName() {
 
   sayMy();
 
-  function sayMy() {
-    console.log(name);
+  function sayMy(Kristin) {
     var name = "Kristin";
+    console.log(name);
+
   }
 }
